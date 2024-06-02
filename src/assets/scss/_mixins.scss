@@ -1,0 +1,19 @@
+@mixin ubuntu-300 {
+    font-family: $ubuntu;
+    font-weight: 300;
+}
+
+@mixin ubuntu-400 {
+    font-family: $ubuntu;
+    font-weight: 400;
+}
+
+@mixin ubuntu-500 {
+    font-family: $ubuntu;
+    font-weight: 500;
+}
+
+@mixin ubuntu-700 {
+    font-family: $ubuntu;
+    font-weight: 700;
+}

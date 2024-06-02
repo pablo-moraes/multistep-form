@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: hsl(217, 100%, 97%);
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Light.ttf');
+  src: url('../fonts/Ubuntu-Regular.ttf');
+  src: url('../fonts/Ubuntu-Bold.ttf');
+  src: url('../fonts/Ubuntu-Medium.ttf');
+}
