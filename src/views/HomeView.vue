@@ -24,7 +24,7 @@ export default defineComponent({
     <aside class="side-nav">
       <ul class="nav-list">
         <li>
-          <button :class="{ active: currentStep === 1 }">1</button>
+          <button tabindex="-1" :class="{ active: currentStep === 1 }">1</button>
           <div>
             <h2>STEP 1</h2>
             <h3>YOUR INFO</h3>
@@ -32,7 +32,7 @@ export default defineComponent({
         </li>
 
         <li>
-          <button :class="{ active: currentStep === 2 }">2</button>
+          <button tabindex="-1" :class="{ active: currentStep === 2 }">2</button>
           <div>
             <h2>STEP 2</h2>
             <h3>SELECT PLAN</h3>
@@ -40,7 +40,7 @@ export default defineComponent({
         </li>
 
         <li>
-          <button :class="{ active: currentStep === 3 }">3</button>
+          <button tabindex="-1" :class="{ active: currentStep === 3 }">3</button>
           <div>
             <h2>STEP 3</h2>
             <h3>ADD-ONS</h3>
@@ -48,7 +48,7 @@ export default defineComponent({
         </li>
 
         <li>
-          <button :class="{ active: currentStep === 4 }">4</button>
+          <button tabindex="-1" :class="{ active: currentStep === 4 }">4</button>
           <div>
             <h2>STEP 4</h2>
             <h3>SUMMARY</h3>

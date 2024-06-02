@@ -38,7 +38,7 @@ export default {
   <label :for="'checkPlan' + price">
     <input type="radio" name="plan" :id="'checkPlan' + price" @click="sendChange" :checked="checked" />
     <div class="card" :class="{'h-183': !isMonthly}">
-      <img :src="plan.icon" :alt="plan.name + 'Plan'" class="card-icon" />
+      <img :src="plan.icon" :alt="plan.name + ' Plan'" class="card-icon" />
 
       <div class="card-info">
         <h4>{{ plan.name }}</h4>
